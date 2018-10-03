@@ -1,4 +1,4 @@
-# Function takes in percent grade and outputs 
+# Python Function takes in percent grade and outputs 
 def percent_to_letter(grade):
     if grade >= 90:
         return "A"
