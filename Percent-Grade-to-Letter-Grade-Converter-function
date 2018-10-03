@@ -1,0 +1,21 @@
+# Function takes in percent grade and outputs 
+def percent_to_letter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80 and grade < 90:
+        return "B"
+    elif grade >= 70 and grade < 80:
+        return "C"
+    elif grade >= 65 and grade < 70:
+        return "D"
+    else:
+        return "F"
+#TEST
+# This should print an "A"      
+print percent_to_letter(92)
+
+# This should print a "C"
+print percent_to_letter(70)
+
+# This should print an "F"
+print percent_to_letter(61)
